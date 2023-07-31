@@ -13,6 +13,7 @@ const Onboarding = () => {
         PoppinsRegular: require("../assets/fonts/Poppins-Regular.ttf"),
         PoppinsSemiBold: require("../assets/fonts/Poppins-SemiBold.ttf"),
         PoppinsMedium: require("../assets/fonts/Poppins-Medium.ttf"),
+        PoppinsSemiBold: require("../assets/fonts/Poppins-SemiBold.ttf"),
     })
     if (!loaded) {
         return null;
@@ -20,8 +21,9 @@ const Onboarding = () => {
   return (
     <View style={styles.container}>
       <Header />
-
+      <View style={{flex:1,alignItems:"center"}}>
       <Welcome />
+      </View>
       <TouchableOpacity style={styles.btn} onPress={()=>navigator.navigate("Login")}>
         <Text style={styles.btnText}>Get Started</Text>
       </TouchableOpacity>
@@ -37,7 +39,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "space-between",
     paddingBottom:10,
-    alignItems:"center"
   },
   card: {
     resizeMode: "contain",

@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
 import Login from '../screens/Login'
 import HomeScreen from '../screens/HomeScreen';
@@ -9,71 +9,71 @@ import Onboarding from '../screens/Onboarding';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import { Entypo, FontAwesome } from '@expo/vector-icons';
+import { Entypo, FontAwesome, AntDesign } from '@expo/vector-icons';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
 const HomeTab = () => (
   <Stack.Navigator>
-    <Stack.Screen name="Home" component={HomeScreen} options={{headerShown:false}}/>
+    <Stack.Screen name="h" component={HomeScreen} options={{headerShown:false}}/>
   </Stack.Navigator>
 );
 
 const PocketTab = () => (
   <Stack.Navigator>
-    <Stack.Screen name="Pocket" component={Pocket} options={{headerShown:false}}/>
+    <Stack.Screen name="p" component={Pocket} options={{headerShown:false}}/>
   </Stack.Navigator>
 );
 
 const InboxTab = () => (
   <Stack.Navigator>
-    <Stack.Screen name="Inbox" component={Inbox} options={{headerShown:false}}/>
+    <Stack.Screen name="i" component={Inbox} options={{headerShown:false}}/>
   </Stack.Navigator>
 );
 const ProfileTab = () => (
   <Stack.Navigator>
-    <Stack.Screen name="Profile" component={Profile} options={{headerShown:false}}/>
+    <Stack.Screen name="pr" component={Profile} options={{headerShown:false}}/>
   </Stack.Navigator>
 );
 
 const TabNavigator = () => (
   <Tab.Navigator
     screenOptions={{
-      tabBarActiveTintColor: 'grey',
+      tabBarActiveTintColor: '#05be71',
     }}
   >
     <Tab.Screen
-      name="HomeTab"
+      name="Home"
       component={HomeTab}
       options={{
-        tabBarIcon: () => <Entypo name="home" size={24} color="grey" />,
+        tabBarIcon: ({color}) => <AntDesign name="home" size={30} color={color} />,
         headerShown: false,
       }}
     />
     <Tab.Screen
-      name="PocketTab"
+      name="Pocket"
       component={PocketTab}
       options={{
-        tabBarIcon: () => <FontAwesome name="search" size={24} color="grey"/>,
+        tabBarIcon: ({color}) => <AntDesign name="search1" size={30} color={color} />,
         headerShown: false,
       }}
     />
 
 <Tab.Screen
-      name="InboxTab"
+      name="Inbox"
       component={InboxTab}
       options={{
-        tabBarIcon: () => <FontAwesome name="user" size={24} color="grey" />,
+        tabBarIcon: ({color}) => <AntDesign name="inbox" size={30} color={color} />,
         headerShown: false,
         
       }}
     />
 <Tab.Screen
-      name="ProfileTab"
+      name="Profile"
       component={ProfileTab}
       options={{
-        tabBarIcon: () => <FontAwesome name="user" size={24} color="grey" />,
+        tabBarIcon: ({color}) => <FontAwesome name="user" size={30} color={color} />,
         headerShown: false,
         
       }}
