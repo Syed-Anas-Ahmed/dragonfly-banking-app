@@ -1,4 +1,3 @@
-
 # Dragonfly Banking App
 
 A nayapay/easypaisa clone app with material UI Design
@@ -30,3 +29,4 @@ npx expo start
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<Image source={require('./assets/dragonfly.png')} style={{ width: 200, height: 200 }} />
