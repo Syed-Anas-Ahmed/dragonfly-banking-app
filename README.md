@@ -28,5 +28,3 @@ npx expo start
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-<Image source={require('./assets/dragonfly.png')} style={{ width: 200, height: 200 }} />
