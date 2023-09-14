@@ -9,7 +9,6 @@ A nayapay/easypaisa clone app with material UI Design
 - Login Screen
 - Register Screen 
 - Home Screen etc
-
 # Installation
 
 ```bash
@@ -19,4 +18,15 @@ npx expo start
 ```
 # Screenshots
 
-![Onboarding Screen](https://github.com/Syed-Anas-Ahmed/devfolio/blob/main/src/assets/dragonfly.png)
+![Overview](https://github.com/Syed-Anas-Ahmed/devfolio/blob/main/src/assets/dragonfly.png)
+
+![Onboarding](https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/1694712774160.jpg)
+
+![Login/Register](https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/1694712774148.jpg)
+
+![Home](https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/1694712774138.jpg)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
