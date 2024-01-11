@@ -19,7 +19,8 @@ npx expo start
 
 ![Overview](https://github.com/Syed-Anas-Ahmed/devfolio/blob/main/src/assets/dragonfly.png)
 
-![Onboarding](https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/1694712774160.jpg)
+![Onboarding]
+<img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/1694712774160.jpg" alt="Onboarding" width="400" height="auto" />
 
 ![Login/Register](https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/1694712774148.jpg)
 
