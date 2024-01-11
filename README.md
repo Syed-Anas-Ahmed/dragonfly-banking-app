@@ -20,7 +20,12 @@ npx expo start
 ![Overview](https://github.com/Syed-Anas-Ahmed/devfolio/blob/main/src/assets/dragonfly.png)
 
 ## Onboarding
-<img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%201.png" alt="Onboarding 1" width="250" height="auto" /><img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%202.png" alt="Onboarding 2" width="250" height="auto" /><img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%203.png" alt="Onboarding 3" width="250" height="auto" />
+<p align="center">
+  <img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%201.png" alt="Onboarding 1" width="250" height="auto" />
+  <img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%202.png" alt="Onboarding 2" width="250" height="auto" />
+  <img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%203.png" alt="Onboarding 3" width="250" height="auto" />
+</p>
+
 
 ## Login/Register
 <img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Login%2C%20Register.png" alt="LoginRegister" width="250" height="auto" />
