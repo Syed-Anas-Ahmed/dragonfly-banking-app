@@ -20,11 +20,11 @@ npx expo start
 ![Overview](https://github.com/Syed-Anas-Ahmed/devfolio/blob/main/src/assets/dragonfly.png)
 
 ## Onboarding
-<p align="center">
+<div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%201.png" alt="Onboarding 1" width="250" height="auto" />
   <img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%202.png" alt="Onboarding 2" width="250" height="auto" />
   <img src="https://github.com/Syed-Anas-Ahmed/dragonfly-banking-app/blob/master/assets/Onboarding%203.png" alt="Onboarding 3" width="250" height="auto" />
-</p>
+</div>
 
 
 ## Login/Register
